@@ -1,0 +1,110 @@
+body {
+  padding-top: 56px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  height: 50vh;
+  background: url('../img/hero-image.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+#preview {
+  border: 1px solid #ddd;
+  padding: 10px;
+  min-height: 200px;
+  background-color: #f8f9fa;
+  margin-top: 10px;
+}
+
+.navbar-brand, .nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-nav .nav-item + .nav-item {
+  margin-left: 15px;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+}
+
+.container p {
+  line-height: 1.6;
+}
+
+.container form .form-control {
+  margin-bottom: 15px;
+}
+
+.container form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+.carousel-inner{
+  width:70%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.prody_logo{
+  width: 100px;
+  height: auto;
+}
+.hero {
+  background-image: url('../img/banner_prody.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.carousel-control-next, .carousel-control-prev{
+  background-color: #deacf5;
+  width: 80px;
+    border-radius: 50%;
+    height: 80px;
+    top: 40%;
+}
